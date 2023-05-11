@@ -1,0 +1,78 @@
+/*=========================
+    BANNER START
+=========================*/
+#about {
+  padding: 50px 0;
+  .container {
+    .row {
+      .col-lg-5 {
+        padding: 0;
+      }
+      .col-lg-7 {
+        .item {
+          h3 {
+            padding-bottom: 60px;
+          }
+          p {
+            @include common_paragraph;
+          }
+          .boxes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            .box {
+              height: 90px;
+              max-width: 270px;
+              display: flex;
+
+              justify-content: flex-start;
+              align-items: center;
+              gap: 20px;
+              padding-left: 20px;
+              box-sizing: border-box;
+              .icon {
+                width: 38px;
+                height: 45px;
+                .image {
+                  width: 100%;
+                  height: 100%;
+                  picture {
+                    width: 100%;
+                    height: 100%;
+                    img {
+                      width: 100%;
+                      height: 100%;
+                    }
+                  }
+                }
+              }
+              .text {
+                span {
+                  font-family: $font-family-sans;
+                  font-weight: 600;
+                  font-size: 14px;
+                  line-height: 22px;
+                  color: $black;
+                }
+                h4 {
+                  font-family: $font-family-sans;
+                  font-weight: 600;
+                  font-size: 20px;
+                  line-height: 22px;
+                  color: $black;
+                }
+              }
+              &:hover {
+                background-color: $about_hover;
+                box-shadow: 0px 10px 15px 0px #f5f5f5;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/*=========================
+      BANNER END
+=========================*/

@@ -1,0 +1,187 @@
+/*=================================
+            NAVBAR START 
+==================================== */
+@media (max-width: 1199px) {
+  .navbar-expand-lg .navbar-collapse {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .offcanvas_btn {
+    display: block;
+  }
+  .navbar-toggler {
+    display: none;
+  }
+  .offcanvas_btn {
+    display: block;
+  }
+}
+/*=================================
+            NAVBAR END
+==================================== */
+/*=================================
+            BANNER START
+==================================== */
+@media (max-width: 991px) {
+  #banner {
+    height: 400px;
+  }
+  #banner .container .row .col-lg-12 .intro {
+    margin-top: 10%;
+  }
+  #banner .container .row .col-lg-12 .intro h3 {
+    font-size: 20px;
+    line-height: 35px;
+  }
+  #banner .container .row .col-lg-12 .intro h1 {
+    font-size: 35px;
+  }
+  #banner .container .row .col-lg-12 .intro ul {
+    max-width: 170px;
+    display: block;
+    text-align: left;
+    margin: auto;
+  }
+  #banner .container .row .col-lg-12 .intro ul li:nth-child(1) {
+    list-style: disc;
+  }
+}
+@media (max-width: 767px) {
+  #banner .container .row .col-lg-12 .intro h1 {
+    font-size: 25px;
+  }
+  #banner .container .row .col-lg-12 .intro h3 {
+    font-size: 16px;
+  }
+  #banner .container .row .col-lg-12 .intro .msg_btn {
+    display: none;
+  }
+}
+/*=================================
+            BANNER END
+==================================== */
+/*=================================
+            ABOUT START
+==================================== */
+@media (max-width: 991px) {
+  #about .image {
+    text-align: center;
+  }
+  #about .item {
+    text-align: center;
+    padding-top: 30px;
+  }
+  #about .container .row .col-lg-7 .item .boxes .box {
+    justify-content: center;
+  }
+  #about .container .row .col-lg-7 .item .boxes {
+    justify-content: center;
+  }
+  #service .container .row .col-lg-4 .service_info .icon {
+    margin: auto;
+  }
+  #service .container .row .col-lg-4 .service_info {
+    text-align: center;
+  }
+  #service .container .row .col-lg-4 .service_info .text {
+    padding-top: 20px;
+  }
+  #portfolio .container-fluid .row .col-lg-12 .item .filter_gallery {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 575px) {
+  #portfolio .container-fluid .row .col-lg-12 .item .filter_menu button {
+    font-size: 15px;
+    padding: 0 10px;
+  }
+}
+/*=================================
+            ABOUT END
+==================================== */
+/*=================================
+            WORK START
+==================================== */
+@media (max-width: 1199px) {
+  #work .container .row .col-lg-4 .item h3 {
+    font-size: 25px;
+  }
+  #work .container .row .col-lg-4 .item {
+    text-align: center;
+    padding-bottom: 25px;
+  }
+}
+/*=================================
+            WORK END
+==================================== */
+/*=================================
+            TESTIMONIAL START
+==================================== */
+@media (max-width: 1199px) {
+  #testimonial .container .row .col-lg-6 .item .text .reviews {
+    padding-bottom: 0px;
+  }
+  #testimonial .container .row .col-lg-6 .item .text h5 {
+    padding: 18px;
+    padding-bottom: 0;
+  }
+  #testimonial .container .row .col-lg-6 .item {
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+}
+/*=================================
+            TESTIMONIAL END
+==================================== */
+/*=================================
+            SUBSCRIBE START
+==================================== */
+@media (max-width: 991px) {
+  #subscribe .container .row .col-lg-5 .input {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  #subscribe .container .row .col-lg-2 .subscribe_btn {
+    text-align: center;
+  }
+}
+/*=================================
+            SUBSCRIBE END
+==================================== */
+/*=================================
+            MARKET_ICONS START
+==================================== */
+@media (max-width: 991px) {
+  #market_icons .container .row .col-lg-12 .item {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #market_icons .container .row .col-lg-12 .item .market_image {
+    border-bottom: 1px solid #ddd !important;
+  }
+  #market_icons .container .row .col-lg-12 .item .market_image.sec_2 {
+    border-right: none;
+  }
+  #market_icons .container .row .col-lg-12 .item .market_image.fst_1 {
+    border-right: none;
+  }
+  
+}
+/*=================================
+            MARKET_ICONS END
+==================================== */
+/*=================================
+            TESTIMONIAL START
+==================================== */
+
+/*=================================
+            TESTIMONIAL END
+==================================== */
+/*=================================
+            TESTIMONIAL START
+==================================== */
+
+/*=================================
+            TESTIMONIAL END
+==================================== */

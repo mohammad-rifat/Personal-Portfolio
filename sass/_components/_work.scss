@@ -1,0 +1,57 @@
+/*=========================
+    EXPERIENCE START
+=========================*/
+#work {
+  background-color: #009ff8;
+  padding: 30px 0;
+  margin: 50px 0;
+  .container {
+    .row {
+      .col-lg-4 {
+        .item {
+          h3 {
+            color: $white;
+            padding-bottom: 28px;
+          }
+          a.one {
+            @include common_button;
+            width: 145px;
+            text-align: center;
+            background: none;
+            background-color: $white;
+            color: $cyan;
+          }
+          a.two {
+            @include common_button;
+            text-align: center;
+            margin-left: 14px;
+          }
+        }
+      }
+      .col-lg-8 {
+       .main_item{
+           display: flex;
+           justify-content: space-between;
+        .item {
+            text-align: center;
+          .icon {
+            margin-bottom: 20px;
+          }
+          .text {
+            h3 {
+                color: $white;
+                font-size: 24px;
+              span {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+       }
+      }
+    }
+  }
+}
+/*=========================
+    EXPERIENCE END
+=========================*/

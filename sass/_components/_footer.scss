@@ -1,0 +1,88 @@
+/*=========================
+    MARKET_ICONS START
+=========================*/
+#footer {
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 22px;
+  background: $about_hover;
+  .container {
+    .row {
+      .col-lg-12 {
+        text-align: center;
+        .perfolio {
+          padding-bottom: 30px;
+          a {
+            img {
+              margin-bottom: 40px;
+            }
+          }
+          p {
+            max-width: 570px;
+            margin: auto;
+            font-size: 14px;
+            line-height: 24px;
+            color: $black;
+          }
+        }
+        .contact_me {
+          padding-top: 30px;
+          padding-bottom: 30px;
+          position: relative;
+          h3 {
+            padding-bottom: 20px;
+            font-size: 24px;
+          }
+          p {
+            font-weight: 500;
+            font-size: 20px;
+            color: $black;
+          }
+          button {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background: linear-gradient(to right, $cyan_2, $cyan_3);
+            border: none;
+            position: absolute;
+            bottom: 0;
+            left: 100%;
+            i {
+              color: $white;
+            }
+          }
+        }
+        .social_icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 40px;
+          a {
+            height: 40px;
+            width: 40px;
+            border: 1px solid;
+            filter: grayscale(100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:hover{
+                background: linear-gradient(to right, $cyan_2, $cyan_3);
+                color: $white;
+                filter: grayscale(0);
+            }
+          }
+        }
+        .last_msg{
+            p{
+                font-size: 14px;
+                color: $black;
+            }
+        }
+      }
+    }
+  }
+}
+/*=========================
+      MARKET_ICONS END
+=========================*/

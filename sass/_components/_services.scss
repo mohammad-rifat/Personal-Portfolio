@@ -1,0 +1,46 @@
+/*=========================
+    SERVICES START
+=========================*/
+#service {
+  background-color: $about_hover;
+  padding: 60px 0;
+  margin: 50px 0;
+  .container {
+    .row {
+      .col-lg-4 {
+        .service_info {
+          padding: 30px;
+          transition: $transition;
+          .icon {
+            margin-bottom: 20px;
+            max-width: 70px;
+            max-height: 70px;
+            picture {
+              max-width: 100%;
+              max-height: 100%;
+              img {
+                max-width: 100%;
+                max-height: 100%;
+              }
+            }
+          }
+          .text {
+            h3 {
+              font-size: 24px;
+              padding-bottom: 30px;
+            }
+            p {
+              @include common_paragraph;
+            }
+          }
+          &:hover {
+            background-color: $white;
+          }
+        }
+      }
+    }
+  }
+}
+/*=========================
+        SERVICES END
+  =========================*/

@@ -1,0 +1,91 @@
+/*=========================
+    NAVBAR START
+=========================*/
+#navigation_bar {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  margin-top: 30px;
+  transition: $transition;
+  .container {
+    .collapse {
+      ul.navbar-nav {
+        li {
+          margin-left: 25px;
+          a {
+            font-family: $font-family-ubuntu;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            color: $black;
+            transition: $transition;
+            &:hover {
+              color: $cyan;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+//STICKY NAVBAR START
+#navigation_bar.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $cyan;
+  margin-top: 0;
+  height: 80px;
+  width: 100%;
+  .container {
+    .collapse {
+      ul {
+        li {
+          a {
+            &:hover {
+              color: $white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+//STICKY NAVBAR END
+
+// OFFCANVAS START 
+.offcanvas_btn{
+  background: transparent;
+  color: $black;
+  border-color: $black;
+  display: none;
+  transition: $transition;
+  &:hover{
+    border-radius: 50%;
+    background: transparent;
+    color: $black;
+    border-color: $black;
+  }
+}
+.offcanvas{
+  z-index: 5000;
+  background: $cyan;
+  .offcanvas-body{
+    ul{
+      li{
+        &:hover{
+          a{
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}
+// OFFCANVAS END
+/*=========================
+    NAVBAR END
+=========================*/

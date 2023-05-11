@@ -1,0 +1,53 @@
+@import "../variable/variable";
+/*=========================
+    ALL COMMON CSS START 
+=========================*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: $font-family-ubuntu;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0;
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+img {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+  font-family: $font-family-abril;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 24px;
+  color: $heading_black;
+}
+p {
+  margin-bottom: 0;
+}
+body {
+  position: relative;
+  overflow-x: hidden;
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $cyan; 
+    border-radius: 5px;
+  }
+}
+/*=========================
+    ALL COMMON CSS END
+=========================*/

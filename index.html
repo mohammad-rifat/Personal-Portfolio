@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./images/logo.png" />
+    <title>Home Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- FONT AWESOME CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- GOOGLE FONTS START  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- UBUNTU  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- OPEN SANS  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ABRIL FATFACE -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
+      rel="stylesheet"
+    />
+    <!-- GOOGLE FONTS END -->
+    <!-- VENOBOX PLUGIN CSS  -->
+    <link rel="stylesheet" href="css/venobox.min.css" />
+    <!-- MY CSS  -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- RESPONSIVE CSS  -->
+    <link rel="stylesheet" href="./css/responsive.css">
+  </head>
+  <body>
+    <!-- ===============================
+           DARK MODE START 
+    ============================ -->
+    <div class="dark_mode">
+      <i class="fa-solid fa-sun">
+        <span> Switch to Light Mode </span>
+      </i>
+      <i class="fa-solid fa-moon">
+        <span>Switch to Dark Mode </span>
+      </i>
+    </div>
+    <!-- ===============================
+           DARK MODE END
+    ============================ -->
+    <!-- ===============================
+           MOVE TOP START 
+    ============================ -->
+    <div class="move_top">
+      <a href="#">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    </div>
+    <!-- ===============================
+           MOVE TOP END 
+    ============================ -->
+
+    <!-- ===============================
+           NAVBAR END
+    ============================ -->
+    <nav class="navbar navbar-expand-lg p-0" id="navigation_bar">
+      <div class="container">
+        <a class="navbar-brand p-0" href="index.html">
+          <img src="./images/logo.png" alt="logo" class="img-fluid" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">My Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">My Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- offcanvas button start  -->
+        <button
+          class="btn btn-primary offcanvas_btn"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <!-- offcanvas button end  -->
+      </div>
+    </nav>
+    <!-- offcanvas menu start  -->
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasRight"
+      aria-labelledby="offcanvasRightLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">
+          Menu
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service">My Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">My Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- offcanvas menu end -->
+    <!-- ===============================
+           NAVBAR END
+    ============================ -->
+    <!-- ===============================
+           BANNER START 
+    ============================ -->
+    <section id="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="intro">
+              <h3>Hello I'm</h3>
+              <h1>Tahsan Michalvina</h1>
+              <ul>
+                <li>Graphic Designer</li>
+                <li>Web Designer</li>
+                <li>Web Developer</li>
+              </ul>
+              <button>Hire Me</button>
+              <button class="msg_btn">
+                <i class="fa-solid fa-comments"></i>
+              </button>
+              <form action="" id="form">
+                <input type="text" name="text" id="text" placeholder="" />
+                <i class="fa-regular fa-face-smile"></i>
+                <i class="fa-solid fa-link"></i>
+                <i class="fa-regular fa-paper-plane"></i>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===============================
+           BANNER END
+    ============================ -->
+    <!-- ===============================
+           ABOUT START 
+    ============================ -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="image">
+              <picture>
+                <img src="./images/about_img.png" alt="" class="img-fluid"/>
+              </picture>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="item">
+              <h3>About Myself</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in repreerit in voluptate velit esse cillum dolore eu
+              </p>
+
+              <div class="boxes">
+                <div class="box">
+                  <div class="icon">
+                    <div class="image">
+                      <picture>
+                        <img src="./images/about_icon_1.png" alt="icon" />
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <span>Developing</span>
+                    <h4>Concept</h4>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="icon">
+                    <div class="image">
+                      <picture>
+                        <img src="./images/about_icon_2.png" alt="icon" />
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <span>Sketch or</span>
+                    <h4>Wareframe</h4>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="icon">
+                    <div class="image">
+                      <picture>
+                        <img src="./images/about_icon_3.png" alt="icon" />
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <span>Digitalize </span>
+                    <h4>The Design</h4>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="icon">
+                    <div class="image">
+                      <picture>
+                        <img src="./images/about_icon_4.png" alt="icon" />
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <span>Deliver</span>
+                    <h4>To Client</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===============================
+           ABOUT END
+    ============================ -->
+    <!-- ===============================
+           SERVICES START 
+    ============================ -->
+    <section id="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="service_info">
+              <div class="icon">
+                <picture>
+                  <img
+                    src="images/service_icon.png"
+                    alt="logo"
+                    class="img-fluid"
+                  />
+                </picture>
+              </div>
+              <div class="text">
+                <h3>Graphic Design</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adi do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                  veniam.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="service_info">
+              <div class="icon">
+                <picture>
+                  <img
+                    src="images/service_icon_2.png"
+                    alt="logo"
+                    class="img-fluid"
+                  />
+                </picture>
+              </div>
+              <div class="text">
+                <h3>Web Design</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adi do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                  veniam.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="service_info">
+              <div class="icon">
+                <picture>
+                  <img
+                    src="images/service_icon_3.png"
+                    alt="logo"
+                    class="img-fluid"
+                  />
+                </picture>
+              </div>
+              <div class="text">
+                <h3>Digital Marketing</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adi do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                  veniam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===============================
+           SERVICES END
+    ============================ -->
+    <!-- ===============================
+           PORTFOLIO START 
+    ============================ -->
+    <section id="portfolio">
+      <div class="container-fluid p-0">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="item">
+              <h3>My Portfolio</h3>
+              <div class="filter_menu">
+                <button type="button" data-filter="all">Illustrations</button>
+                <button type="button" data-filter=".logo">Logo</button>
+                <button type="button" data-filter=".template">
+                  Web Template
+                </button>
+                <button type="button" data-filter=".business">
+                  Business Card
+                </button>
+                <button type="button" data-filter=".flyer">Flyer</button>
+              </div>
+              <div class="filter_gallery">
+                <div class="filter_item mix logo flyer">
+                  <a
+                    class="my-image-links"
+                    data-gall="gallery01"
+                    href="./images/portfolio_img_1.jpg"
+                    ><img class="img-fluid" src="images/portfolio_img_1.jpg"
+                  /></a>
+                  <div class="overlay">
+                    <div class="icons">
+                      <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    </div>
+                    <span> Ocean Illustration </span>
+                  </div>
+                </div>
+                <div class="filter_item mix logo business">
+                  <a
+                    class="my-image-links"
+                    data-gall="gallery01"
+                    href="./images/portfolio_img_2.jpg"
+                    ><img class="img-fluid" src="images/portfolio_img_2.jpg"
+                  /></a>
+                  <div class="overlay">
+                    <div class="icons">
+                      <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    </div>
+                    <span> Boat Illustration </span>
+                  </div>
+                </div>
+                <div class="filter_item mix template">
+                  <a
+                    class="my-image-links"
+                    data-gall="gallery01"
+                    href="./images/portfolio_img_3.jpg"
+                    ><img class="img-fluid" src="images/portfolio_img_3.jpg"
+                  /></a>
+                  <div class="overlay">
+                    <div class="icons">
+                      <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    </div>
+                    <span> Girl Illustration </span>
+                  </div>
+                </div>
+                <div class="filter_item mix business template">
+                  <a
+                    class="my-image-links"
+                    data-gall="gallery01"
+                    href="./images/portfolio_img_4.jpg"
+                    ><img class="img-fluid" src="images/portfolio_img_4.jpg"
+                  /></a>
+                  <div class="overlay">
+                    <div class="icons">
+                      <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    </div>
+                    <span> Home Illustration </span>
+                  </div>
+                </div>
+                <div class="filter_item mix flyer">
+                  <a
+                    class="my-image-links"
+                    data-gall="gallery01"
+                    href="./images/portfolio_img_5.jpg"
+                    ><img class="img-fluid" src="images/portfolio_img_5.jpg"
+                  /></a>
+                  <div class="overlay">
+                    <div class="icons">
+                      <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    </div>
+                    <span> Glove Illustration </span>
+                  </div>
+                </div>
+              </div>
+              <div class="browse_btn">
+                <a href="javascript:void(0)"> Browse All </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===============================
+           PORTFOLIO END
+    ============================ -->
+    <!-- ===============================
+           EXPERIENCE START 
+    ============================ -->
+    <section id="experience">
+      <div class="container">
+        <div class="row">
+          <div class="section_heading">
+            <h1>Work Experience</h1>
+          </div>
+          <div class="col-lg-4">
+            <div class="item">
+              <div class="main_heading">
+                <div class="image">
+                  <picture>
+                    <img src="images/ex_1.png" alt="icon" class="img-fluid" />
+                  </picture>
+                </div>
+              </div>
+              <div class="description">
+                <div class="des_heading">
+                  <h3>Graphic Designer</h3>
+                  <span>2002 - 2004</span>
+                </div>
+                <div class="info">
+                  <p>
+                    I're working here as a Graphic Designer from 2002 to 2004.
+                    The working experience were very good . Working spaces are
+                    work friendly.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="item">
+              <div class="main_heading">
+                <div class="image">
+                  <picture>
+                    <img src="images/ex_2.png" alt="icon" class="img-fluid" />
+                  </picture>
+                </div>
+              </div>
+              <div class="description">
+                <div class="des_heading">
+                  <h3>Senior Graphic Designer</h3>
+                  <span>2004 - 2006</span>
+                </div>
+                <div class="info">
+                  <p>
+                    I'm working here as a Graphic Designer from 2002 to 2004.
+                    The working experience were very good . Working spaces are
+                    work friendly.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="item">
+              <div class="main_heading">
+                <div class="image">
+                  <picture>
+                    <img src="images/ex_3.png" alt="icon" class="img-fluid" />
+                  </picture>
+                </div>
+              </div>
+              <div class="description">
+                <div class="des_heading">
+                  <h3>UI/UX Designer</h3>
+                  <span>2006 - Presents</span>
+                </div>
+                <div class="info">
+                  <p>
+                    I're working here as a Graphic Designer from 2002 to 2004.
+                    The working experience were very good . Working spaces are
+                    work friendly.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===============================
+           EXPERIENCE END
+    ============================ -->
+    <!-- ===============================
+           WORK START 
+    ============================ -->
+    <section id="work">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="item">
+              <h3>Do you have any Work?</h3>
+              <a class="one" href="javascript:void(0)"> Know More </a>
+              <a class="two" href="javascript:void(0)"> Hire Me </a>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="main_item">
+              <div class="item">
+                <div class="icon">
+                  <picture>
+                    <img
+                      src="./images/work_1.png"
+                      alt="icon"
+                      class="img-fluid"
+                    />
+                  </picture>
+                </div>
+                <div class="text">
+                  <h3>97% <span>Job Completation</span></h3>
+                </div>
+              </div>
+              <div class="item">
+                <div class="icon">
+                  <picture>
+                    <img
+                      src="./images/work_1.png"
+                      alt="icon"
+                      class="img-fluid"
+                    />
+                  </picture>
+                </div>
+                <div class="text">
+                  <h3>97% <span>Job Completation</span></h3>
+                </div>
+              </div>
+              <div class="item">
+                <div class="icon">
+                  <picture>
+                    <img
+                      src="./images/work_1.png"
+                      alt="icon"
+                      class="img-fluid"
+                    />
+                  </picture>
+                </div>
+                <div class="text">
+                  <h3>97% <span>Job Completation</span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===============================
+           WORK END
+    ============================ -->
+    <!-- ===============================
+           TESTIMONIAL START 
+    ============================ -->
+    <section id="testimonial">
+      <div class="container">
+        <div class="row">
+          <div class="section_heading">
+            <h3>My Testimonial</h3>
+          </div>
+          <div class="col-lg-6">
+            <div class="item">
+              <div class="image">
+                <picture>
+                  <img src="images/testimonial_1.jpg" alt="image" />
+                </picture>
+              </div>
+              <div class="text">
+                <h5>
+                  Lorem ipsum dolor sit amet, cotur adipisicing elit, sed do
+                  eiusmod or incididunt ut labore et dolore magna aliquat enim.
+                </h5>
+                <div class="reviews">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <div class="intro">
+                  <h6>Demo Name</h6>
+                  <span>Professional Web Designer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="item">
+              <div class="image">
+                <picture>
+                  <img src="images/testimonial_2.jpg" alt="image" />
+                </picture>
+              </div>
+              <div class="text">
+                <h5>
+                  Lorem ipsum dolor sit amet, cotur adipisicing elit, sed do
+                  eiusmod or incididunt ut labore et dolore magna aliquat enim.
+                </h5>
+                <div class="reviews">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <div class="intro">
+                  <h6>Demo Name</h6>
+                  <span>Professional Web Designer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===============================
+           TESTIMONIAL END
+    ============================ -->
+    <!-- ===============================
+           SUBSCRIBE START
+    ============================ -->
+    <section id="subscribe">
+      <div class="container">
+        <div class="section_heading">
+          <h3>Subscribe for Newsletter</h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="input">
+              <input type="text" name="" id="text" placeholder="Your Name" />
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="input">
+              <input type="text" name="" id="text" placeholder="Your Name" />
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="subscribe_btn">
+              <button>Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===============================
+           SUBSCRIBE END
+    ============================ -->
+    <!-- ===============================
+           ICONS START
+    ============================ -->
+    <section id="market_icons">
+      <div class="container">
+        <div class="row g-0">
+          <div class="col-lg-12">
+            <div class="item">
+              <div class="market_image">
+                <picture>
+                  <img
+                    src="./images/icon_1.png"
+                    alt="image"
+                    class="img-fluid"
+                  />
+                </picture>
+              </div>
+              <div class="market_image fst_1">
+                <picture>
+                  <img
+                    src="./images/icon_2.png"
+                    alt="image"
+                    class="img-fluid"
+                  />
+                </picture>
+              </div>
+              <div class="market_image">
+                <picture>
+                  <img
+                    src="./images/icon_3.png"
+                    alt="image"
+                    class="img-fluid"
+                  />
+                </picture>
+              </div>
+              <div class="market_image fst_1">
+                <picture>
+                  <img
+                    src="./images/icon_4.png"
+                    alt="image"
+                    class="img-fluid"
+                  />
+                </picture>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="item">
+              <div class="market_image border-bottom-0">
+                <picture>
+                  <img
+                    src="./images/icon_5.png"
+                    alt="image"
+                    class="img-fluid"
+                  />
+                </picture>
+              </div>
+              <div class="market_image sec_2 border-bottom-0">
+                <picture>
+                  <img
+                    src="./images/icon_6.png"
+                    alt="image"
+                    class="img-fluid"
+                  />
+                </picture>
+              </div>
+              <div class="market_image border-bottom-0">
+                <picture>
+                  <img
+                    src="./images/icon_7.png"
+                    alt="image"
+                    class="img-fluid"
+                  />
+                </picture>
+              </div>
+              <div class="market_image sec_2 border-bottom-0">
+                <picture>
+                  <img
+                    src="./images/icon_8.png"
+                    alt="image"
+                    class="img-fluid"
+                  />
+                </picture>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===============================
+           ICONS END
+    ============================ -->
+    <!-- ===============================
+           FOOTER START
+    ============================ -->
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="perfolio">
+              <a href="#">
+                <img
+                  src="./images/perfolio_logo.png"
+                  alt="logo"
+                  class="img-fluid"
+                />
+              </a>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="contact_me">
+              <h3>Contact Me</h3>
+              <p>personal-mail@gmail.com</p>
+              <button>
+                <i class="fa-solid fa-comments"></i>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="social_icons">
+              <a href="javascript:void(0)">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa-brands fa-pinterest-p"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="javascript:void(0)">
+                <i class="fa-brands fa-google-plus-g"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="last_msg">
+              <p>
+                Copyright <i class="fa-solid fa-copyright"></i> 2018. All rights
+                reserved by DESIGNER.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ===============================
+           FOOTER END
+    ============================ -->
+    <!-- ===============================
+           SUBSCRIBE START
+    ============================ -->
+    <!-- ===============================
+           SUBSCRIBE END
+    ============================ -->
+    <!-- BOOTSTRAP JS  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JQUERY VERSION FILE  -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <!-- VENOBOX PLUGIN JS  -->
+    <script src="./js/venobox.min.js"></script>
+    <!-- MIXIT UP PLUGIN  -->
+    <script src="js/mixitup.min.js"></script>
+    <!-- MY JS  -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>

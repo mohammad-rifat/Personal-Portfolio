@@ -1,0 +1,62 @@
+/*=========================
+    TESTIMONIAL START
+=========================*/
+#testimonial {
+  padding: 50px 0;
+  .container {
+    .row {
+      .section_heading {
+        text-align:center ;
+        padding-bottom: 65px;
+      }
+      .col-lg-6 {
+        .item {
+          display: flex;
+          .image {
+            max-width: 200px;
+            height: auto;
+          }
+          .text {
+            background-color: $about_hover;
+            text-align: center;
+            max-width: 370px;
+            height: auto;
+            h5 {
+              font-size: 20px;
+              line-height: 30px;
+              font-weight: 400;
+              max-width: 350px;
+              margin: auto;
+              padding: 30px;
+            }
+            .reviews {
+              padding-bottom: 30px;
+              i {
+                color: $yellow;
+                font-size: 15px;
+              }
+            }
+            .intro {
+              h6 {
+                font-size: 20px;
+                line-height: 30px;
+                font-family: $font-family-ubuntu;
+                font-weight: 500;
+                margin-bottom: -10px;
+              }
+              span {
+                font-size: 16px;
+                line-height: 30px;
+                font-family: $font-family-ubuntu;
+                font-weight: 400;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/*=========================
+      TESTIMONIAL END
+=========================*/

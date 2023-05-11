@@ -1,0 +1,108 @@
+/*=========================
+    BANNER START
+=========================*/
+#banner {
+  background-image: url("../images/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+  margin-bottom: 50px;
+  .container {
+    height: 100%;
+    .row {
+      height: 100%;
+      .col-lg-12 {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        height: 100%;
+        .intro {
+          max-width: 470px;
+          text-align: center;
+          h3 {
+            font-family: $font-family-ubuntu;
+            font-size: 34px;
+            font-weight: 300;
+            line-height: 52px;
+            color: $cyan;
+          }
+          h1 {
+            font-family: $font-family-abril;
+            font-size: 50px;
+            font-weight: 3400;
+            line-height: 52px;
+            color: $cyan;
+            margin-bottom: -5px;
+          }
+          ul {
+            list-style-type: disc;
+            gap: 28px;
+            li {
+              font-family: $font-family-ubuntu;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 44px;
+              &:nth-child(1) {
+                list-style: none;
+              }
+            }
+          }
+          button {
+            @include common_button;
+            &:hover {
+              background: $white;
+              color: $cyan;
+            }
+          }
+          .msg_btn {
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            position: absolute;
+            top: 40%;
+            left: 25%;
+            color: $cyan;
+            background: $white;
+            transition: $transition;
+            &:hover {
+              background: $cyan;
+              color: $white;
+            }
+          }
+          form {
+            display: flex;
+            background-color: $white;
+            align-items: center;
+            width: 230px;
+            height: 70px;
+            border-radius: 30px;
+            padding-left: 20px;
+            position: absolute;
+            top: 50%;
+            left: 5%;
+            display: none;
+            input {
+              border: none;
+              outline: 0;
+              padding: 5px;
+              width: 50%;
+              height: 100%;
+            }
+            i {
+              cursor: pointer;
+              margin: 0 5px;
+              &:hover {
+                color: $cyan;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/*=========================
+    BANNER END
+=========================*/

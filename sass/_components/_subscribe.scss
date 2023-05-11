@@ -1,0 +1,47 @@
+/*=========================
+    SUBSCRIBE START
+=========================*/
+#subscribe {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  .container {
+    .section_heading {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .row {
+      .col-lg-5 {
+        .input {
+          max-width: 490px;
+          input {
+            width: 100%;
+            border: 1px solid rgba(128, 128, 128, 0.15);
+            height: 45px;
+            border-radius: 30px;
+            padding-left: 20px;
+            margin-right: 32px;
+            &::placeholder {
+              font-style: italic;
+              font-family: $font-family-ubuntu;
+              font-size: 13px;
+              line-height: 24px;
+            }
+          }
+        }
+      }
+      .col-lg-2 {
+        .subscribe_btn {
+          text-align: right;
+          button {
+            @include common_button;
+            width: 128px;
+            border-radius: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+/*=========================
+      SUBSCRIBE END
+=========================*/

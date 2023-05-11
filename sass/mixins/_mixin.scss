@@ -1,0 +1,22 @@
+@import "../variable/variable";
+
+@mixin common_paragraph {
+  font-family: $font-family-ubuntu;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $black;
+}
+@mixin common_button {
+  width: 111px;
+  height: 46px;
+  background: linear-gradient(to right, $cyan_2, $cyan_3);
+  border: none;
+  border-radius: 3px;
+  font-family: $font-family-ubuntu;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 44px;
+  color: $white;
+  transition: $transition;
+}

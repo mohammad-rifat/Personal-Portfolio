@@ -1,0 +1,70 @@
+/*=========================
+    DARK START
+=========================*/
+.dark_mode {
+  background-color: $cyan;
+  height: 25px;
+  width: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  z-index: 9998;
+  cursor: pointer;
+  i{
+    position: relative;
+    span{
+      font-size: 10px;
+      width: 150px;
+      height: 100%;
+      position: absolute;
+      top: 50%;
+      right: 25px;
+      transform: translateY(-50%);
+      letter-spacing: 1px;
+      opacity: 0;
+      visibility: hidden;
+      transition: $transition;
+      background: $cyan;
+      text-align: center;
+    }
+  }
+  i.fa-sun{
+    color: $white;
+    display: none;
+    span{
+      color: $white;
+      width: 170px;
+    }
+  }
+  i.fa-moon{
+    
+  }
+  &:hover{
+    i{
+      span{
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+}
+
+body.dark{
+    background-color: $heading_black;
+    .dark_mode{
+        i.fa-sun{
+           display: block;
+        }
+        i.fa-moon{
+           display: none;
+        }
+    }
+}
+/*=========================
+        DARK END
+  =========================*/

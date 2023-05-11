@@ -1,0 +1,92 @@
+/*=========================
+    EXPERIENCE START
+=========================*/
+#experience {
+  padding: 50px 0;
+  .container {
+    .row {
+      .section_heading {
+        padding-bottom: 68px;
+        h1 {
+          max-width: 370px;
+          margin: auto;
+          text-align: center;
+        }
+      }
+      .col-lg-4 {
+        .item {
+            transition: $transition;
+          .main_heading {
+            background-color: $grey;
+            height: 94px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .image {
+              picture {
+                img {
+                }
+              }
+            }
+          }
+          .description {
+            background-color: $about_hover;
+            text-align: center;
+            .des_heading {
+              font-family: $font-family-ubuntu;
+              font-weight: 400;
+              font-size: 20px;
+              line-height: 30px;
+              color: $black;
+              padding-bottom: 15px;
+              padding-top: 25px;
+              h3 {
+                font-family: inherit;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                color: $black;
+              }
+              span {
+                font-size: 16px;
+              }
+            }
+            .info {
+              p {
+                @include common_paragraph;
+                padding: 0 24px;
+                padding-bottom: 30px;
+              }
+            }
+          }
+          &:hover {
+            .main_heading {
+              background: linear-gradient(to right, $cyan_2, $cyan_3);
+              border-bottom: 1px solid darkcyan;
+            }
+            .description {
+              background: linear-gradient(to right, $cyan_2, $cyan_3);
+              .des_heading{
+                h3{
+                    color: $white;
+                }
+                span{
+                    color: $white
+                }
+              }
+              .info{
+                p{
+                    color: $white;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/*=========================
+            EXPERIENCE END
+  =========================*/
